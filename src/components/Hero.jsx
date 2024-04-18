@@ -10,7 +10,7 @@ const Hero = () => {
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       id="home"
-      className="hero py-10 flex justify-center"
+      className="hero py-10 sm:py-20 flex justify-center"
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
@@ -32,7 +32,8 @@ const Hero = () => {
             <span className="text-base-content/30"> for ambitious brands</span>
           </h1>
           <p className="py-6 font-poppins lg:max-w-lg">
-            Empowering Your Digital Presence with Cutting-Edge Web Solutions
+            Empowering Your Digital Presence with Cutting-Edge Web Solutions and
+            Marketing Strategies to Drive Growth.
           </p>
           <div className="flex gap-2 max-lg:justify-center">
             <a
@@ -55,3 +56,11 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// "At [Agency Name], we're passionate about empowering brands to thrive in the digital landscape. With a dedicated team of experienced professionals, we specialize in crafting tailored web development solutions that propel businesses forward. Our mission is simple: to help brands grow exponentially by harnessing the power of innovative digital marketing strategies.
+
+// From sleek and responsive website designs to cutting-edge e-commerce platforms, we leverage the latest technologies and industry best practices to deliver results that exceed expectations. We understand that every brand is unique, which is why we take a personalized approach to every project we undertake.
+
+// Our process begins with a comprehensive analysis of your brand's objectives and target audience, allowing us to develop customized strategies that drive growth and engagement. Whether you're a startup looking to establish your online presence or a seasoned enterprise seeking to optimize performance, we have the expertise and resources to elevate your brand to new heights.
+
+// At [Agency Name], we're more than just a web development agency — we're your trusted partner in success. With a relentless focus on innovation, creativity, and measurable results, we're committed to helping you achieve your goals and stand out in today's competitive marketplace. Let's collaborate and unlock the full potential of your brand together."

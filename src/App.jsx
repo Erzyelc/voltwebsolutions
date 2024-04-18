@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Services from "./components/Services";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
+import Workflow from "./components/Workflow";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       {/* <LogoClouds /> */}
       <Services />
+      <Workflow />
       <Testimonial />
       <Team />
       <Contact />
