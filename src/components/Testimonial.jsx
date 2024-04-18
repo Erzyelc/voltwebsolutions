@@ -76,7 +76,7 @@ const Testimonial = () => {
             disableOnInteraction: true,
           }}
           modules={[Navigation, Autoplay, Pagination, Mousewheel, Keyboard]}
-          className="container mx-4 h-96 rounded-xl max-sm:max-w-sm"
+          className="container mx-4 h-[650px] sm:h-96 rounded-xl max-sm:max-w-sm"
         >
           {testimonials.map((item, index) => (
             <SwiperSlide className="h-full bg-base-100" key={index}>
