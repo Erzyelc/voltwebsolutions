@@ -1,12 +1,17 @@
 import {
-  CloudArrowUpIcon,
+  // CloudArrowUpIcon,
+  ArrowsRightLeftIcon,
   LockClosedIcon,
-  ServerIcon,
+  BoltIcon,
+  // ServerIcon,
 } from "@heroicons/react/20/solid";
 
 export default function Example() {
   return (
-    <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <div
+      className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+      id="workflow"
+    >
       {/* <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
           className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -60,8 +65,8 @@ export default function Example() {
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             className="w-[48rem] max-w-none rounded-xl  shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            // src="/images/projects/devflow.svg"
             src="images/projects/nextlevel.svg"
+            // src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
             alt=""
           />
         </div>
@@ -78,15 +83,16 @@ export default function Example() {
               </p>
               <ul role="list" className="mt-8 space-y-8 ">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon
+                  <ArrowsRightLeftIcon
                     className="mt-1 h-5 w-5 flex-none"
                     aria-hidden="true"
                   />
                   <span>
-                    <strong className="font-semibold ">Push to deploy.</strong>{" "}
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    <strong className="font-semibold ">
+                      Feedback Appreciated.
+                    </strong>{" "}
+                    We value your feedback and will work with you to ensure that
+                    your website is exactly what you want.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -95,24 +101,22 @@ export default function Example() {
                     aria-hidden="true"
                   />
                   <span>
-                    <strong className="font-semibold ">
-                      SSL certificates.
-                    </strong>{" "}
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo.
+                    <strong className="font-semibold ">Security first.</strong>{" "}
+                    We prioritize security in our development process to ensure
+                    a safe and secure website for your business.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon
+                  <BoltIcon
                     className="mt-1 h-5 w-5 flex-none "
                     aria-hidden="true"
                   />
                   <span>
                     <strong className="font-semibold ">
-                      Database backups.
+                      Fast and reliable.
                     </strong>{" "}
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    We use the latest technologies to ensure that your website
+                    is fast and looks great on all devices.
                   </span>
                 </li>
               </ul>

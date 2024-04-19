@@ -3,8 +3,9 @@ import { Toggle } from "react-hook-theme";
 import "react-hook-theme/dist/styles/style.css";
 
 const navigation = [
-  { name: "Home", href: "#home" },
+  // { name: "Home", href: "#home" },
   { name: "Services", href: "#services" },
+  { name: "Our Process", href: "#workflow" },
   { name: "Testimonial", href: "#testimonial" },
   // { name: "Team", href: "#team" },
   { name: "Projects", href: "#team" },

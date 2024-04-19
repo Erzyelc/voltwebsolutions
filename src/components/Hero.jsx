@@ -42,12 +42,12 @@ const Hero = () => {
             >
               Get Started
             </a>
-            <a
+            {/* <a
               href="/"
               className="btn btn-ghost md:btn-lg rounded-full font-poppins font-light"
             >
               Read success stories
-            </a>
+            </a> */}
           </div>
         </div>
       </motion.div>
