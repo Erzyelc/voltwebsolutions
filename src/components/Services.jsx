@@ -9,7 +9,7 @@ const services = [
   },
   {
     name: "Shopify Development.",
-    bg: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800",
+    bg: "https://images.unsplash.com/photo-1511376777868-611b54f68947?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
   },
   {
     name: "SEO + Branding",
@@ -21,7 +21,7 @@ const services = [
   },
   {
     name: "Logo Design",
-    bg: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    bg: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bG9nbyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     name: "Consulting",
