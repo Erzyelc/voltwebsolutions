@@ -59,8 +59,8 @@ const Team = () => {
       >
         {team.map((item, index) => (
           <div key={index} className="card w-80 bg-base-100 shadow-sm lg:w-96">
-            <figure className="lpx-10 pt-10">
-              <img src={item.profile} alt="Shoes" className="h-44 w-50 " />
+            <figure className="px-10 pt-20">
+              <img src={item.profile} alt="Shoes" className="h-44 w-80" />
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title font-poppins">{item.name}</h2>
