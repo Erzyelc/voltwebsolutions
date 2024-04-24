@@ -66,6 +66,7 @@ export default function Example() {
           <img
             className="w-[48rem] max-w-none rounded-xl  shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
             src="images/projects/nextlevel.svg"
+            // src="images/projects/landfree.svg"
             // src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
             alt=""
           />

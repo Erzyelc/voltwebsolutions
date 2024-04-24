@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
 import Workflow from "./components/Workflow";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Workflow />
       <Testimonial />
       <Team />
+      <Pricing />
       <Contact />
     </div>
   );
