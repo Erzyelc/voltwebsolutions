@@ -48,7 +48,7 @@ export default function Example() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               {/* <p className="text-base font-semibold leading-7">Deploy faster</p> */}
-              <h1 className="mt-2 text-3xl font-bold tracking-tight  sm:text-4xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
+              <h1 className="mt-2 text-3xl font-bold tracking-tight  md:text-5xl bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
                 A better workflow
               </h1>
               <p className="mt-6 text-xl leading-8">

@@ -56,7 +56,7 @@ const Testimonial = () => {
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="flex flex-col items-center justify-center"
       >
-        <h1 className="text-center font-poppins text-2xl font-semibold md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
+        <h1 className="mt-2 text-3xl font-bold tracking-tight  md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
           Testimonials
         </h1>
         <span className="text-md mt-2 px-2 font-poppins md:mt-4 md:px-5 md:text-xl">

@@ -19,7 +19,8 @@ const Hero = () => {
         <img
           // src="https://images.unsplash.com/photo-1552960562-daf630e9278b?q=100&w=900"
           // src="/images/logo/vwsHeader.svg"
-          src="/images/logo/hero.svg"
+          // src="/images/logo/hero.svg"
+          src="/images/logo/voltvws.svg"
           alt="hero image"
           className="max-w-xs rounded-box  shadow-2xl  md:max-w-md"
         />

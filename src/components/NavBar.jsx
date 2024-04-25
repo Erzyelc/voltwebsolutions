@@ -9,6 +9,7 @@ const navigation = [
   { name: "Testimonial", href: "#testimonial" },
   // { name: "Team", href: "#team" },
   { name: "Projects", href: "#team" },
+  { name: "Pricing", href: "#pricing" },
   { name: "Contact Us", href: "#contactus" },
 ];
 const NavBar = () => {

@@ -17,7 +17,7 @@ const Contact = () => {
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="flex w-full flex-col justify-center"
       >
-        <h1 className="text-center font-poppins text-2xl font-semibold md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
+        <h1 className="text-center font-poppins text-3xl font-semibold md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
           Get in touch
         </h1>
         <span className="text-md mt-2 px-2 text-center font-poppins md:mt-4 md:px-5 md:text-xl">
