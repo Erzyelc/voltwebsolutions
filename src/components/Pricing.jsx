@@ -293,13 +293,13 @@ export default function Example() {
                 <img
                   src="/images/scribbles/scribble2.svg"
                   alt="line"
-                  className="w-10 mx-auto mt-10 absolute right-6 -translate-x-1/2 sm:mt-20 sm:w-10 rotate-90"
+                  className="w-10 mx-auto mt-10 absolute right-40 -translate-x-1/2 sm:mt-40 sm:w-10 rotate-90 overflow-hidden"
                 />
                 <div className="lg:min-w-0 lg:flex-1 ">
                   <h3 className="text-lg font-semibold leading-8 tracking-tight text-white">
                     Flex Plan
                   </h3>
-                  <p className="mt-1 text-base leading-7 white">
+                  <p className="mt-1 text-base leading-7 text-white">
                     Dolor dolores repudiandae doloribus. Rerum sunt aut eum.
                     Odit omnis non voluptatem sunt eos nostrum.
                   </p>
