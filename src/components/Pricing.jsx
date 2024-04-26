@@ -228,7 +228,17 @@ export default function Example() {
           </svg>
         </div>
       </div>
-      <div className="flow-root bg-white pb-24 sm:pb-32">
+      <div className="flow-root  pb-24 sm:pb-32">
+        <img
+          src="/images/scribbles/bolt.svg"
+          alt="line"
+          className="w-20 mx-auto absolute left-6 -translate-x-1/2 sm:mt-20 sm:w-40"
+        />
+        <img
+          src="/images/scribbles/scribble.svg"
+          alt="line"
+          className="w-10 mx-auto mt-10 absolute right-6 -translate-x-9 sm:mt-20 sm:w-20"
+        />
         <div className="-mt-80">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
@@ -279,25 +289,35 @@ export default function Example() {
                   </a>
                 </div>
               ))}
-              <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
-                <div className="lg:min-w-0 lg:flex-1">
-                  <h3 className="text-lg font-semibold leading-8 tracking-tight text-[#2563EB]">
+              <div className=" flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-white sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+                <img
+                  src="/images/scribbles/scribble2.svg"
+                  alt="line"
+                  className="w-10 mx-auto mt-10 absolute right-6 -translate-x-1/2 sm:mt-20 sm:w-10 rotate-90"
+                />
+                <div className="lg:min-w-0 lg:flex-1 ">
+                  <h3 className="text-lg font-semibold leading-8 tracking-tight text-white">
                     Flex Plan
                   </h3>
-                  <p className="mt-1 text-base leading-7 text-gray-600">
+                  <p className="mt-1 text-base leading-7 white">
                     Dolor dolores repudiandae doloribus. Rerum sunt aut eum.
                     Odit omnis non voluptatem sunt eos nostrum.
                   </p>
                 </div>
                 <a
                   href="#"
-                  className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-[#2563EB] ring-1 ring-inset ring-indigo-200 hover:ring-[#2563EB] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-indigo-200 hover:ring-[#2563EB] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Contact Us<span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
               {/* <div className="bg-red-500 flex  justify-center px-6 rounded-md py-6 flex-col "> */}
               <div className="flex flex-col bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+                <img
+                  src="/images/scribbles/scribble2.svg"
+                  alt="line"
+                  className="w-10 mx-auto mt-10 absolute left-6 -translate-x-1/2 sm:mt-20 sm:w-10 rotate-90"
+                />
                 <div className="lg:min-w-0 lg:flex-1">
                   <h3 className="text-lg font-semibold leading-8 tracking-tight text-white">
                     Book an intro call

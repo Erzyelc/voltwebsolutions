@@ -10,7 +10,8 @@ const Hero = () => {
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       id="home"
-      className="hero py-10 sm:py-20 flex justify-center"
+      // className="hero py-10 sm:py-20 flex justify-center"
+      className="sm:mx-20 rounded-3xl py-10 sm:py-20 flex justify-center bg-white shadow-2xl mt-10"
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
@@ -22,7 +23,8 @@ const Hero = () => {
           // src="/images/logo/hero.svg"
           src="/images/logo/voltvws.svg"
           alt="hero image"
-          className="max-w-xs rounded-box  shadow-2xl  md:max-w-md"
+          // className="max-w-xs rounded-box  shadow-2xl  md:max-w-md"
+          className="max-w-xs  md:max-w-md"
         />
         <div className="text-center lg:text-start">
           {/* <span className="badge badge-outline badge-lg">
@@ -36,7 +38,12 @@ const Hero = () => {
             Empowering Your Digital Presence with Cutting-Edge Web Solutions and
             Marketing Strategies to Drive Growth.
           </p>
-          <div className="flex gap-2 max-lg:justify-center">
+          <div className="flex gap-4 max-lg:justify-center">
+            <img
+              src="/images/scribbles/line.svg"
+              alt="line"
+              className="w-20 hidden sm:block"
+            />
             <a
               href="#contactus"
               className="btn btn-neutral md:btn-lg rounded-full font-poppins shadow-md"

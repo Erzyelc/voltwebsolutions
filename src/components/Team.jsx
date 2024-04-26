@@ -75,6 +75,7 @@ const Team = () => {
         </div> */}
       </motion.div>
       <div className=" w-full flex items-center justify-center my-10">
+        {/* <img src="/images/scribbles/line.svg" alt="line" className="w-20" /> */}
         <button className="btn btn-neutral md:btn-lg rounded-full font-poppins shadow-md">
           <a href="/Projects">See More</a>
         </button>
