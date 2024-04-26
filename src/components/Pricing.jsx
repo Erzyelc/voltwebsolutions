@@ -289,7 +289,7 @@ export default function Example() {
                   </a>
                 </div>
               ))}
-              <div className=" flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-white sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+              <div className=" flex flex-col items-start bg-slate-600 gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-white sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
                 <img
                   src="/images/scribbles/scribble2.svg"
                   alt="line"

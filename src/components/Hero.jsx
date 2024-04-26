@@ -11,7 +11,7 @@ const Hero = () => {
       viewport={{ once: true, amount: 0.25 }}
       id="home"
       // className="hero py-10 sm:py-20 flex justify-center"
-      className="sm:mx-20 rounded-3xl py-10 sm:py-20 flex justify-center bg-white shadow-2xl mt-10"
+      className="mx-4 sm:mx-20 rounded-3xl py-10 sm:py-20 flex justify-center bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] shadow-2xl mt-10"
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
@@ -30,9 +30,10 @@ const Hero = () => {
           {/* <span className="badge badge-outline badge-lg">
             Award winning digital agency
           </span> */}
-          <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
+          {/* <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"> */}
+          <h1 className="text-white pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block">
             Digital marketing solutions
-            <span className="text-base-content/30"> for ambitious brands</span>
+            <span className=""> for ambitious brands</span>
           </h1>
           <p className="py-6 font-poppins lg:max-w-lg">
             Empowering Your Digital Presence with Cutting-Edge Web Solutions and
@@ -40,7 +41,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-4 max-lg:justify-center">
             <img
-              src="/images/scribbles/line.svg"
+              src="/images/scribbles/linewhite.svg"
               alt="line"
               className="w-20 hidden sm:block"
             />
