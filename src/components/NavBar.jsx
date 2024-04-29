@@ -6,7 +6,7 @@ const navigation = [
   // { name: "Home", href: "#home" },
   { name: "Services", href: "#services" },
   { name: "Our Process", href: "#workflow" },
-  { name: "Testimonial", href: "#testimonial" },
+  // { name: "Testimonial", href: "#testimonial" },
   // { name: "Team", href: "#team" },
   { name: "Projects", href: "#team" },
   { name: "Pricing", href: "#pricing" },
@@ -59,7 +59,7 @@ const NavBar = () => {
             className="btn btn-ghost rounded-full font-poppins text-sm font-light px-10 "
             href="/"
           >
-            <img src="/images/logo/volt.svg" alt="" className="w-20" />
+            <img src="/images/logo/volt.svg" alt="" className="w-16 sm:w-16" />
           </a>
         </div>
         <div className="navbar-center ml-10 hidden lg:flex">

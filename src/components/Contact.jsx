@@ -32,7 +32,7 @@ const Contact = () => {
           <img
             src="/images/scribbles/scribble2.svg"
             alt="line"
-            className="w-10 mx-auto mt-10 absolute right-40 -translate-x-1/2 sm:mt-40 sm:w-10 rotate-90 overflow-hidden"
+            className="w-8 mx-auto mt-10 absolute right-40 -translate-x-1/2 sm:mt-40 sm:w-10 rotate-90 overflow-hidden"
           />
           <div className="lg:mx-0 lg:mt-0 lg:flex lg:w-1/2 lg:flex-col lg:items-center">
             <div className="mt-6 space-y-8 md:mt-8">

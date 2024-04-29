@@ -24,13 +24,13 @@ const Hero = () => {
           src="/images/logo/voltvws.svg"
           alt="hero image"
           // className="max-w-xs rounded-box  shadow-2xl  md:max-w-md"
-          className="max-w-xs  md:max-w-sm"
+          className="max-w-xs  md:max-w-sm "
         />
         <div className="text-center lg:text-start">
           <img
             src="/images/scribbles/bolt.svg"
             alt="line"
-            className="w-20 mx-auto z-0 absolute left-1 -translate-x-1/2 sm:mt-20 sm:w-40"
+            className="hidden sm:inline w-20 mx-auto z-0 absolute left-1 -translate-x-1/2 sm:mt-20 sm:w-40"
           />
 
           {/* <span className="badge badge-outline badge-lg">

@@ -11,6 +11,7 @@ import Pricing from "./components/Pricing";
 function App() {
   return (
     <div className="bg-base-200">
+      {/* <div className="bg-base-200 sm:mx-20 sm:my-10 sm:rounded-2xl"> */}
       <NavBar />
       <Hero />
       {/* <LogoClouds /> */}
