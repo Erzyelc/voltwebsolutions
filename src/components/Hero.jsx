@@ -11,7 +11,7 @@ const Hero = () => {
       viewport={{ once: true, amount: 0.25 }}
       id="home"
       // className="hero py-10 sm:py-20 flex justify-center"
-      className="mx-4 sm:mx-20 rounded-3xl py-10 sm:py-20 flex justify-center bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] shadow-2xl mt-10"
+      className="z-50 sm:px-6 mx-4 sm:mx-20 rounded-3xl py-10 sm:py-24 flex justify-center bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] shadow-2xl mt-10"
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
@@ -24,9 +24,15 @@ const Hero = () => {
           src="/images/logo/voltvws.svg"
           alt="hero image"
           // className="max-w-xs rounded-box  shadow-2xl  md:max-w-md"
-          className="max-w-xs  md:max-w-md"
+          className="max-w-xs  md:max-w-sm"
         />
         <div className="text-center lg:text-start">
+          <img
+            src="/images/scribbles/bolt.svg"
+            alt="line"
+            className="w-20 mx-auto z-0 absolute left-1 -translate-x-1/2 sm:mt-20 sm:w-40"
+          />
+
           {/* <span className="badge badge-outline badge-lg">
             Award winning digital agency
           </span> */}

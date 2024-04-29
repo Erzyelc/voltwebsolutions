@@ -29,6 +29,11 @@ const Contact = () => {
         className="container mx-auto px-6 py-10"
       >
         <div className="lg:-mx-6 lg:flex lg:items-center">
+          <img
+            src="/images/scribbles/scribble2.svg"
+            alt="line"
+            className="w-10 mx-auto mt-10 absolute right-40 -translate-x-1/2 sm:mt-40 sm:w-10 rotate-90 overflow-hidden"
+          />
           <div className="lg:mx-0 lg:mt-0 lg:flex lg:w-1/2 lg:flex-col lg:items-center">
             <div className="mt-6 space-y-8 md:mt-8">
               <p className="-mx-2 flex items-start">
@@ -93,6 +98,11 @@ const Contact = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
+                <img
+                  src="/images/scribbles/bolt.svg"
+                  alt="line"
+                  className="w-20 hidden mx-auto sm:inline absolute left-6 -translate-x-1/2 sm:mt-20 sm:w-40"
+                />
 
                 <span className="mx-2 w-72 truncate font-poppins text-base-content">
                   voltwebsolutions@gmail.com
