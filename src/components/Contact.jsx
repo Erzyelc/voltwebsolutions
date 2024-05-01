@@ -17,10 +17,10 @@ const Contact = () => {
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="flex w-full flex-col justify-center"
       >
-        <h1 className="text-center font-poppins text-3xl font-semibold md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
+        <h1 className=" text-center font-poppins text-3xl font-semibold md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
           Get in touch
         </h1>
-        <span className="text-md mt-2 px-2 text-center font-poppins md:mt-4 md:px-5 md:text-xl">
+        <span className="text-center text-md mt-2 px-2 font-poppins md:mt-4 md:px-5 md:text-xl">
           Contact us now and scale your business
         </span>
       </motion.div>
@@ -32,7 +32,7 @@ const Contact = () => {
           <img
             src="/images/scribbles/scribble2.svg"
             alt="line"
-            className="w-8 mx-auto mt-10 absolute right-40 -translate-x-1/2 sm:mt-40 sm:w-10 rotate-90 overflow-hidden"
+            className="w-8 mx-auto mt-10 absolute right-40 -translate-x-1/2 sm:mt-96 sm:w-8 rotate-90 overflow-hidden"
           />
           <div className="lg:mx-0 lg:mt-0 lg:flex lg:w-1/2 lg:flex-col lg:items-center">
             <div className="mt-6 space-y-8 md:mt-8">
@@ -183,7 +183,21 @@ const Contact = () => {
           </div>
         </div>
       </motion.div>
-      <div className="flex items-center justify-center py-10 font-poppins text-sm lg:text-lg">
+      <div className=" h-50 w-full sm:my-40">
+        <img
+          src="/images/logo/voltlarge.svg"
+          alt="voltlarge"
+          className="object-cover max-h-60 w-full  mt-10"
+        />
+      </div>
+      {/* <div className=" h-50 rounded-2xl py-20 bg-neutral-600 mx-20 my-20">
+        <img
+          src="/images/logo/voltlarge.svg"
+          alt="voltlarge"
+          className="object-cover max-h-60 w-full mx-auto mt-10"
+        />
+      </div> */}
+      <div className="flex items-center flex-col justify-center py-10 font-poppins text-sm lg:text-lg ">
         <h1>© {currentYear} voltwebsolutions. All rights reserved. </h1>
       </div>
     </motion.section>
