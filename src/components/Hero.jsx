@@ -27,11 +27,11 @@ const Hero = () => {
           className="max-w-xs  md:max-w-sm "
         />
         <div className="text-center lg:text-start">
-          <img
+          {/* <img
             src="/images/scribbles/bolt.svg"
             alt="line"
             className="hidden sm:inline w-20 mx-auto z-0 absolute left-1 -translate-x-1/2 sm:mt-20 sm:w-40"
-          />
+          /> */}
 
           {/* <span className="badge badge-outline badge-lg">
             Award winning digital agency

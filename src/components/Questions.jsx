@@ -3,37 +3,37 @@ const faqs = [
     id: 1,
     question: "Why wouldn't I just hire a full-time designer?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "The annual cost of a full-time designer can be quite high, especially for small businesses. With our service, you can get the same quality of work at a fraction of the cost. Plus, you can cancel anytime.",
   },
   {
     id: 1,
     question: "How fast will I receive my designs?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We aim to deliver your designs within 1-2 business days. However, the turnaround time may vary depending on the complexity of the design and the number of requests in the queue.",
   },
   {
     id: 1,
     question: "What programs do you design in?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We design in Adobe Illustrator, and figma. If you need your design in a different format, please let us know, and we’ll do our best to accommodate your request.",
   },
   {
     id: 1,
     question: "What if I don't like the design?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We offer unlimited revisions, so we’ll keep working on your design until you’re 100% satisfied. If you’re still not happy, we offer a 100% money-back guarantee.",
   },
   {
     id: 1,
     question: "What if I only have a single request?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We’re happy to help with a single request! You can sign up for a monthly plan and cancel anytime. We also offer a one-time design service if you only need a single design.",
   },
   {
     id: 1,
     question: "Are there any refunds if I don't like the service?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Yes, we offer a 100% money-back guarantee if you’re not satisfied with our service. We want to make sure you’re happy with the designs you receive.",
   },
 ];
 
