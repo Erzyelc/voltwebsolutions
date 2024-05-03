@@ -169,7 +169,8 @@ export default function Example() {
                   </p>
                 </div>
                 <a
-                  href="#"
+                  target="_blank"
+                  href="https://calendly.com/voltwebsolutions/30min"
                   className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-indigo-200 hover:ring-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Book a call<span aria-hidden="true">&rarr;</span>

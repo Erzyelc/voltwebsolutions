@@ -1,8 +1,28 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/motion";
+import { useForm } from "@formspree/react";
 
 const Contact = () => {
+  // const [state, handleSubmit, reset] = useForm("mrgnjynv");
+  // if (state.succeeded) {
+  //   return (
+  //     <div className="text-lg font-semibold dark:text-white-900">
+  //       Thank you, we will be in touch shortly!
+  //     </div>
+  //   );
+  // }
+  const [state, handleSubmit] = useForm("mrgnjynv");
+  if (state.succeeded) {
+    return (
+      <div className="py-20 flex items-center justify-center font-poppins text-3xl font-semibold md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text ">
+        Thank you, we will be in touch shortly!
+      </div>
+    );
+  }
+
   const currentYear = new Date().getFullYear();
   return (
     <motion.section
@@ -136,7 +156,7 @@ const Contact = () => {
             <div className="card-body mx-auto w-full overflow-hidden rounded-lg px-8 py-10 shadow-xl outline outline-base-content/5 lg:max-w-xl">
               <h1 className="card-title">What do you want to ask</h1>
 
-              <form className="mt-6">
+              {/* <form className="mt-6" onSubmit={handleSubmit}>
                 <div className="flex-1">
                   <label htmlFor="name" className="mb-2 block text-sm">
                     Full Name
@@ -174,8 +194,68 @@ const Contact = () => {
                     placeholder="Message"
                   ></textarea>
                 </div>
+                <button
+                  className="btn btn-neutral mt-6 w-full transform px-6 py-3 text-sm font-medium capitalize duration-300"
+                  type="submit"
+                  disabled={state.submitting}
+                >
+                  get in touch
+                </button>
+              </form> */}
+              <form onSubmit={handleSubmit} className="mt-6">
+                <div className="flex-1">
+                  <label htmlFor="name" className="mb-2 block text-sm">
+                    Full Name
+                  </label>
+                  <input
+                    id="name"
+                    autoComplete="name"
+                    type="text"
+                    placeholder="Your Name"
+                    className="input input-bordered w-full"
+                  />
+                </div>
+                {/* <label htmlFor="email">Email Address</label>
+                <input id="email" type="email" name="email" /> */}
+                <div className="mt-6 flex-1">
+                  <label htmlFor="email" className="mb-2 block text-sm">
+                    Email address
+                  </label>
+                  <input
+                    id="email"
+                    autoComplete="email"
+                    type="email"
+                    placeholder="abcd@example.com"
+                    className="input input-bordered w-full"
+                  />
+                </div>
 
-                <button className="btn btn-neutral mt-6 w-full transform px-6 py-3 text-sm font-medium capitalize duration-300  ">
+                <textarea
+                  id="message"
+                  name="message"
+                  className="textarea textarea-bordered w-full mt-6 "
+                  placeholder="Message"
+                />
+                {/* <div className="mt-6 w-full">
+                  <label htmlFor="message" className="mb-2 block text-sm">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    autoComplete="message"
+                    className="textarea textarea-bordered w-full"
+                    placeholder="Message"
+                  ></textarea>
+                </div> */}
+
+                {/* <button type="submit" disabled={state.submitting}>
+                  Submit
+                </button> */}
+                <button
+                  className="btn btn-neutral mt-6 w-full transform px-6 py-3 text-sm font-medium capitalize duration-300"
+                  type="submit"
+                  disabled={state.submitting}
+                >
                   get in touch
                 </button>
               </form>
@@ -190,13 +270,7 @@ const Contact = () => {
           className="object-cover max-h-60 w-full  mt-10"
         />
       </div>
-      {/* <div className=" h-50 rounded-2xl py-20 bg-neutral-600 mx-20 my-20">
-        <img
-          src="/images/logo/voltlarge.svg"
-          alt="voltlarge"
-          className="object-cover max-h-60 w-full mx-auto mt-10"
-        />
-      </div> */}
+
       <div className="flex items-center flex-col justify-center py-10 font-poppins text-sm lg:text-lg ">
         <h1>© {currentYear} voltwebsolutions. All rights reserved. </h1>
       </div>
