@@ -6,19 +6,13 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 import { useForm } from "@formspree/react";
 
 const Contact = () => {
-  // const [state, handleSubmit, reset] = useForm("mrgnjynv");
-  // if (state.succeeded) {
-  //   return (
-  //     <div className="text-lg font-semibold dark:text-white-900">
-  //       Thank you, we will be in touch shortly!
-  //     </div>
-  //   );
-  // }
   const [state, handleSubmit] = useForm("mrgnjynv");
   if (state.succeeded) {
     return (
-      <div className="py-20 flex items-center justify-center font-poppins text-3xl font-semibold md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text ">
-        Thank you, we will be in touch shortly!
+      <div className="flex flex-col justify-center bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] mx-4 rounded-2xl mb-4">
+        <h1 className="px-4 py-20 text-center font-poppins text-3xl font-semibold md:text-5xl text-white">
+          Thank you for reaching out, we will be in touch shortly!
+        </h1>
       </div>
     );
   }
@@ -215,9 +209,17 @@ const Contact = () => {
                     className="input input-bordered w-full"
                   />
                 </div>
-                {/* <label htmlFor="email">Email Address</label>
-                <input id="email" type="email" name="email" /> */}
-                <div className="mt-6 flex-1">
+                <label htmlFor="email" className="mb-2 block text-sm mt-6">
+                  Email Address
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="abcd@example.com"
+                  className="input input-bordered w-full flex-1"
+                />
+                {/* <div className="mt-6 flex-1">
                   <label htmlFor="email" className="mb-2 block text-sm">
                     Email address
                   </label>
@@ -228,7 +230,7 @@ const Contact = () => {
                     placeholder="abcd@example.com"
                     className="input input-bordered w-full"
                   />
-                </div>
+                </div> */}
 
                 <textarea
                   id="message"
