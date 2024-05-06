@@ -146,12 +146,14 @@ export default function Example() {
                     goals to achieve. Get in touch with us to learn more.
                   </p>
                 </div>
-                <a
-                  href="#contactus"
-                  className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-indigo-200 hover:ring-[#ECBE44] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                <button
+                  type="button"
+                  className="rounded-md btn btn-neutral px-3.5 py-2.5 text-sm font-semibold  shadow-lg hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Contact Us<span aria-hidden="true">&rarr;</span>
-                </a>
+                  <a href="#contactus">
+                    Contact us<span aria-hidden="true"> &rarr;</span>
+                  </a>
+                </button>
               </div>
               {/* <div className="bg-red-500 flex  justify-center px-6 rounded-md py-6 flex-col "> */}
               <div className="flex flex-col bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
@@ -168,13 +170,24 @@ export default function Example() {
                     Learn how VoltWebSolutions works for your business.
                   </p>
                 </div>
-                <a
+                <button
+                  type="button"
+                  className="rounded-md btn btn-neutral px-3.5 py-2.5 text-sm font-semibold  shadow-lg hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  <a
+                    target="_blank"
+                    href="https://calendly.com/voltwebsolutions/30min"
+                  >
+                    Book a call<span aria-hidden="true"> &rarr;</span>
+                  </a>
+                </button>
+                {/* <a
                   target="_blank"
                   href="https://calendly.com/voltwebsolutions/30min"
                   className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-indigo-200 hover:ring-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Book a call<span aria-hidden="true">&rarr;</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
