@@ -56,7 +56,7 @@ const Services = () => {
         {services.map((item, index) => (
           <div
             key={index}
-            className="card image-full bg-base-100 shadow-xl transition duration-300 hover:-translate-y-1"
+            className="card image-full bg-base-100 shadow-2xl transition duration-300 hover:-translate-y-1"
           >
             <figure className="object-cover">
               <img src={item.bg} alt={item.name} />

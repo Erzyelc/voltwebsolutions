@@ -131,7 +131,7 @@ export default function Example() {
                   </a>
                 </div>
               ))}
-              <div className=" flex flex-col items-start bg-slate-600 gap-x-8 gap-y-6 rounded-3xl p-8  sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+              <div className="shadow-2xl flex flex-col items-start bg-slate-600 gap-x-8 gap-y-6 rounded-3xl p-8  sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
                 <img
                   src="/images/scribbles/scribble2.svg"
                   alt="line"
@@ -156,7 +156,7 @@ export default function Example() {
                 </button>
               </div>
               {/* <div className="bg-red-500 flex  justify-center px-6 rounded-md py-6 flex-col "> */}
-              <div className="flex flex-col bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+              <div className="shadow-2xl flex flex-col bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
                 <img
                   src="/images/scribbles/scribble2.svg"
                   alt="line"
@@ -181,13 +181,6 @@ export default function Example() {
                     Book a call<span aria-hidden="true"> &rarr;</span>
                   </a>
                 </button>
-                {/* <a
-                  target="_blank"
-                  href="https://calendly.com/voltwebsolutions/30min"
-                  className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-indigo-200 hover:ring-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                >
-                  Book a call<span aria-hidden="true">&rarr;</span>
-                </a> */}
               </div>
             </div>
           </div>

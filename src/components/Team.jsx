@@ -58,7 +58,7 @@ const Team = () => {
         className="mt-10 grid gap-8 md:grid-cols-2 xl:grid-cols-3"
       >
         {team.map((item, index) => (
-          <div key={index} className="card w-80 bg-base-100 shadow-sm lg:w-96">
+          <div key={index} className="card w-80 bg-base-100 lg:w-96 shadow-2xl">
             <figure className="px-10 pt-20">
               <img src={item.profile} alt="Shoes" className="h-44 w-80" />
             </figure>

@@ -54,7 +54,7 @@ const Testimonial = () => {
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="flex flex-col items-center justify-center"
+        className="flex flex-col items-center justify-center "
       >
         <h1 className="mt-2 text-3xl font-bold tracking-tight  md:text-5xl  bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
           Testimonials
@@ -76,7 +76,7 @@ const Testimonial = () => {
             disableOnInteraction: true,
           }}
           modules={[Navigation, Autoplay, Pagination, Mousewheel, Keyboard]}
-          className="container mx-4 h-[650px] sm:h-96 rounded-xl max-sm:max-w-sm"
+          className="container mx-4 h-[650px] sm:h-96 rounded-xl max-sm:max-w-sm shadow-2xl"
         >
           {testimonials.map((item, index) => (
             <SwiperSlide className="h-full bg-base-100" key={index}>
