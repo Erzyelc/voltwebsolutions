@@ -7,23 +7,27 @@ const team = [
   {
     name: "JC-Carpentry Remodeling",
     profile: "/images/projects/jcarpentrylaptop.svg",
+    link: "https://jc-carpentry.vercel.app/",
   },
   {
     name: "Morrent",
     profile: "/images/projects/morrentlaptop.svg",
+    link: "https://www.figma.com/file/z5cVdCFsALDqMKOeTArv6Z/Morrent?type=design&t=mS2vY5x9fG4jkYnN-6",
   },
   {
     name: "Jobit",
     profile: "/images/projects/jobitlaptop.svg",
+    link: "https://www.figma.com/file/dsu8EThOMyRzZWq5FW4Wpi/Jobit?type=design&t=c0Slut0ULDOUZY0n-6",
   },
   {
     name: "DevOverflow",
     profile: "/images/projects/devoverflowlaptop.svg",
-    // position: "App Developer",
+    link: "https://www.figma.com/file/k1SxfUMAHPQi2AFEFicJzB/DevOverflow?type=design&t=mS2vY5x9fG4jkYnN-6",
   },
   {
     name: "Filmpire",
     profile: "/images/projects/filmpirelaptop.svg",
+    link: "https://filmpirerjc.netlify.app/",
   },
 
   {
@@ -64,7 +68,15 @@ const Team = () => {
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title font-poppins">{item.name}</h2>
-              <h2 className="font-poppins">{item.position}</h2>
+              <p>
+                <a
+                  href={item.link}
+                  target="_blank"
+                  className="font-poppins rounded-md btn btn-neutral px-3.5 py-2.5 text-sm font-semibold  shadow-lg hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  View Project
+                </a>
+              </p>
             </div>
           </div>
         ))}
