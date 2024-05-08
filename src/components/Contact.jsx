@@ -265,13 +265,18 @@ const Contact = () => {
           </div>
         </div>
       </motion.div>
-      <div className=" h-50 w-full sm:my-40">
-        <img
-          src="/images/logo/voltlarge.svg"
-          alt="voltlarge"
-          className="object-cover max-h-60 w-full  mt-10"
-        />
-      </div>
+      <motion.div
+        variants={fadeIn("down", "tween", 0.2, 1)}
+        className="flex w-full flex-col justify-center"
+      >
+        <div className=" h-50 w-full sm:my-40">
+          <img
+            src="/images/logo/voltlarge.svg"
+            alt="voltlarge"
+            className="object-cover max-h-60 w-full  mt-10"
+          />
+        </div>
+      </motion.div>
 
       <div className="flex items-center flex-col justify-center py-10 font-poppins text-sm lg:text-lg ">
         <h1>© {currentYear} voltwebsolutions. All rights reserved. </h1>
