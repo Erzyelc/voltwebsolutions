@@ -44,25 +44,7 @@ const Contact = () => {
         className="container mx-auto px-6 py-10"
       >
         <div className="lg:-mx-6 lg:flex lg:items-center">
-          {/* <img
-            src="/images/scribbles/scribble2.svg"
-            alt="line"
-            className="w-8 mx-auto mt-10 absolute right-40 -translate-x-1/2 sm:mt-96 sm:w-8 rotate-90 overflow-hidden"
-          /> */}
-
           <div className="lg:mx-0 lg:mt-0 lg:flex lg:w-1/2 lg:flex-col lg:items-center">
-            <div
-              className="absolute  inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-              aria-hidden="true"
-            >
-              <div
-                className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#2563EB]  to-[#ECBE44] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-                style={{
-                  clipPath:
-                    "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                }}
-              />
-            </div>
             <div className="mt-6 space-y-8 md:mt-8">
               <p className="-mx-2 flex items-start">
                 <svg
@@ -126,11 +108,11 @@ const Contact = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <img
+                {/* <img
                   src="/images/scribbles/bolt.svg"
                   alt="line"
                   className="w-20 hidden mx-auto sm:inline absolute left-6 -translate-x-1/2 sm:mt-20 sm:w-40"
-                />
+                /> */}
 
                 <span className="mx-2 w-72 truncate font-poppins text-base-content">
                   voltwebsolutions@gmail.com
@@ -163,53 +145,6 @@ const Contact = () => {
           <div className="card mt-8 lg:mx-6 lg:w-1/2">
             <div className="card-body mx-auto w-full overflow-hidden rounded-lg px-8 py-10 shadow-xl outline outline-base-content/5 lg:max-w-xl">
               <h1 className="card-title">What do you want to ask</h1>
-
-              {/* <form className="mt-6" onSubmit={handleSubmit}>
-                <div className="flex-1">
-                  <label htmlFor="name" className="mb-2 block text-sm">
-                    Full Name
-                  </label>
-                  <input
-                    id="name"
-                    autoComplete="name"
-                    type="text"
-                    placeholder="Your Name"
-                    className="input input-bordered w-full"
-                  />
-                </div>
-
-                <div className="mt-6 flex-1">
-                  <label htmlFor="email" className="mb-2 block text-sm">
-                    Email address
-                  </label>
-                  <input
-                    id="email"
-                    autoComplete="email"
-                    type="email"
-                    placeholder="abcd@example.com"
-                    className="input input-bordered w-full"
-                  />
-                </div>
-
-                <div className="mt-6 w-full">
-                  <label htmlFor="message" className="mb-2 block text-sm">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    autoComplete="message"
-                    className="textarea textarea-bordered w-full"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-                <button
-                  className="btn btn-neutral mt-6 w-full transform px-6 py-3 text-sm font-medium capitalize duration-300"
-                  type="submit"
-                  disabled={state.submitting}
-                >
-                  get in touch
-                </button>
-              </form> */}
               <form onSubmit={handleSubmit} className="mt-6">
                 <div className="flex-1">
                   <label htmlFor="name" className="mb-2 block text-sm">
@@ -233,18 +168,6 @@ const Contact = () => {
                   placeholder="abcd@example.com"
                   className="input input-bordered w-full flex-1"
                 />
-                {/* <div className="mt-6 flex-1">
-                  <label htmlFor="email" className="mb-2 block text-sm">
-                    Email address
-                  </label>
-                  <input
-                    id="email"
-                    autoComplete="email"
-                    type="email"
-                    placeholder="abcd@example.com"
-                    className="input input-bordered w-full"
-                  />
-                </div> */}
 
                 <textarea
                   id="message"
@@ -252,21 +175,6 @@ const Contact = () => {
                   className="textarea textarea-bordered w-full mt-6 "
                   placeholder="Message"
                 />
-                {/* <div className="mt-6 w-full">
-                  <label htmlFor="message" className="mb-2 block text-sm">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    autoComplete="message"
-                    className="textarea textarea-bordered w-full"
-                    placeholder="Message"
-                  ></textarea>
-                </div> */}
-
-                {/* <button type="submit" disabled={state.submitting}>
-                  Submit
-                </button> */}
                 <button
                   className="btn btn-neutral mt-6 w-full transform px-6 py-3 text-sm font-medium capitalize duration-300"
                   type="submit"

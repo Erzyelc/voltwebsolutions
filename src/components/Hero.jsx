@@ -10,8 +10,8 @@ const Hero = () => {
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       id="home"
-      // className="hero py-10 sm:py-20 flex justify-center"
-      className="z-50 sm:px-6 mx-4 sm:mx-20 rounded-3xl py-10 sm:py-24 flex justify-center bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] shadow-2xl mt-10"
+      className="hero py-10 sm:py-20 flex justify-center"
+      // className="z-50 sm:px-6 mx-4 sm:mx-20 rounded-3xl py-10 sm:py-24 flex justify-center bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] shadow-2xl mt-10"
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
@@ -27,6 +27,18 @@ const Hero = () => {
           className="max-w-xs  md:max-w-sm "
         />
         <div className="text-center lg:text-start">
+          <div
+            className="absolute  inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            aria-hidden="true"
+          >
+            <div
+              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#2563EB]  to-[#ECBE44] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              style={{
+                clipPath:
+                  "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
+              }}
+            />
+          </div>
           {/* <img
             src="/images/scribbles/bolt.svg"
             alt="line"
@@ -36,8 +48,8 @@ const Hero = () => {
           {/* <span className="badge badge-outline badge-lg">
             Award winning digital agency
           </span> */}
-          {/* <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"> */}
-          <h1 className="text-white pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block">
+          <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text">
+            {/* <h1 className="text-white pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block"> */}
             Digital marketing solutions
             <span className=""> for ambitious brands</span>
           </h1>

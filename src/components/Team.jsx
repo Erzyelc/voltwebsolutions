@@ -53,6 +53,7 @@ const Team = () => {
         <h1 className="mt-2 text-3xl font-bold tracking-tight  md:text-5xl bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
           Our Projects
         </h1>
+
         <span className="text-md mt-2 px-2 text-center font-poppins md:mt-4 md:px-5 md:text-xl">
           Some of our work we are proud of
         </span>
