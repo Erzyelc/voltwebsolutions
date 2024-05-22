@@ -8,6 +8,7 @@ import Testimonial from "./components/Testimonial";
 import Workflow from "./components/Workflow";
 import Pricing from "./components/Pricing";
 import Questions from "./components/Questions";
+import Logos from "./components/Logos";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       {/* <LogoClouds /> */}
       <Services />
+      <Logos />
       <Workflow />
       <Testimonial />
       <Team />
