@@ -38,7 +38,7 @@ const testimonials = [
     name: "Asako Hayase",
     position: "Team Member",
     quote:
-      "orking alongside Ryan in a coding program was an excellent experience. We collaborated closely on two major projects, joined by two other teammates. Ryan proved himself to be an invaluable team member, always willing to take on any task while maintaining positive communication with everyone.  I would be delighted to have the opportunity to work with Ryan again on future coding endeavors.",
+      "Working alongside Ryan in a coding program was an excellent experience. We collaborated closely on two major projects, joined by two other teammates. Ryan proved himself to be an invaluable team member, always willing to take on any task while maintaining positive communication with everyone.  I would be delighted to have the opportunity to work with Ryan again on future coding endeavors.",
     image: "/images/profile/asako.jpeg",
   },
 ];

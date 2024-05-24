@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/motion";
+import BlurIn from "./magicui/blur-in";
+import WordPullUp from "./magicui/word-pull-up";
 
 const Hero = () => {
   return (
@@ -18,9 +20,6 @@ const Hero = () => {
         className="hero-content gap-10 md:gap-0 flex-col lg:flex-row-reverse"
       >
         <img
-          // src="https://images.unsplash.com/photo-1552960562-daf630e9278b?q=100&w=900"
-          // src="/images/logo/vwsHeader.svg"
-          // src="/images/logo/hero.svg"
           src="/images/logo/voltvws.svg"
           alt="hero image"
           // className="max-w-xs rounded-box  shadow-2xl  md:max-w-md"
@@ -39,27 +38,31 @@ const Hero = () => {
               }}
             />
           </div>
-          {/* <img
-            src="/images/scribbles/bolt.svg"
-            alt="line"
-            className="hidden sm:inline w-20 mx-auto z-0 absolute left-1 -translate-x-1/2 sm:mt-20 sm:w-40"
-          /> */}
 
-          {/* <span className="badge badge-outline badge-lg">
+          <span className="badge badge-outline badge-lg">
             Award winning digital agency
-          </span> */}
-          <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text">
-            {/* <h1 className="text-white pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block"> */}
+          </span>
+          {/* <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text">
             Digital marketing solutions
             <span className=""> for ambitious brands</span>
-          </h1>
+          </h1> */}
+          <WordPullUp
+            words="Digital marketing solutions for ambitious brands"
+            className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"
+          />
+
           <p className="py-6 font-poppins lg:max-w-lg">
             Empowering Your Digital Presence with Cutting-Edge Web Solutions and
             Marketing Strategies to Drive Growth.
           </p>
+          {/* <WordPullUp
+            words="Empowering Your Digital Presence with Cutting-Edge Web Solutions and Marketing Strategies to Drive Growth."
+            className="py-6 font-poppins lg:max-w-lg tracking-tight"
+          /> */}
+
           <div className="flex gap-4 max-lg:justify-center">
             <img
-              src="/images/scribbles/linewhite.svg"
+              src="/images/scribbles/lineblue.svg"
               alt="line"
               className="w-20 hidden sm:block"
             />
