@@ -44,8 +44,8 @@ export default function Logos() {
               className="max-h-12 w-full object-contain"
               src="/images/logo/jcc.svg"
               alt="SavvyCal"
-              width={158}
-              height={48}
+              width={500}
+              height={500}
             />
           </div>
           <div className="bg-neutral p-6 sm:p-10">

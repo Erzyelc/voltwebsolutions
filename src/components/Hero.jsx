@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import BlurIn from "./magicui/blur-in";
+import Globe from "./magicui/globe";
 import WordPullUp from "./magicui/word-pull-up";
 
 const Hero = () => {
@@ -19,12 +19,21 @@ const Hero = () => {
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="hero-content gap-10 md:gap-0 flex-col lg:flex-row-reverse"
       >
-        <img
+        {/* <img
           src="/images/logo/voltvws.svg"
           alt="hero image"
           // className="max-w-xs rounded-box  shadow-2xl  md:max-w-md"
           className="max-w-xs  md:max-w-sm "
-        />
+        /> */}
+
+        <div className="relative flex  w-full max-w-[29rem] items-center justify-center overflow-hidden rounded-lg  px-40 pb-40 pt-8 md:pb-60 md:shadow-xl">
+          <span className=" font-poppins pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[#2563EB]  to-[#ECBE44] bg-clip-text text-center text-8xl font-semibold leading-none text-transparent ">
+            VWS
+          </span>
+          <Globe className="top-12" />
+          <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_200%,rgba(0,0,0,0.2),rgba(255,255,255,0))]" />
+        </div>
+
         <div className="text-center lg:text-start">
           <div
             className="absolute  inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
