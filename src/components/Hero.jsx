@@ -17,7 +17,7 @@ const Hero = () => {
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="hero-content gap-10 md:gap-0 flex-col lg:flex-row-reverse"
+        className="hero-content gap-10 md:gap-0 flex-col-reverse lg:flex-row-reverse"
       >
         {/* <img
           src="/images/logo/voltvws.svg"
