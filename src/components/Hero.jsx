@@ -27,7 +27,7 @@ const Hero = () => {
         /> */}
 
         <div className="relative flex  w-full max-w-[29rem] items-center justify-center overflow-hidden rounded-lg   pb-40 pt-8 md:pb-60 md:shadow-xl">
-          <span className=" font-poppins pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[#2563EB]  to-[#ECBE44] bg-clip-text text-center text-8xl font-semibold leading-none text-transparent ">
+          <span className="opacity-0 font-poppins pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[#2563EB]  to-[#ECBE44] bg-clip-text text-center text-8xl font-semibold leading-none text-transparent ">
             VWS
           </span>
           <Globe className="top-12" />
