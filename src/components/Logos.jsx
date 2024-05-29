@@ -1,6 +1,6 @@
 export default function Logos() {
   return (
-    <div className=" py-24 sm:py-32">
+    <div className="pt-24  sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
           <div className="bg-neutral p-8 sm:p-10">
