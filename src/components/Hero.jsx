@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import Globe from "./magicui/globe";
 import WordPullUp from "./magicui/word-pull-up";
+import VelocityScroll from "./magicui/scroll-based-velocity";
 
 const Hero = () => {
   return (
@@ -26,11 +27,15 @@ const Hero = () => {
           className="max-w-xs  md:max-w-sm "
         /> */}
 
-        <div className=" relative flex  w-full max-w-[29rem] items-center justify-center  rounded-lg  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-xl">
-          <span className="opacity-0 font-poppins pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[#2563EB]  to-[#ECBE44] bg-clip-text text-center text-8xl font-semibold leading-none text-transparent ">
-            VWS
-          </span>
-          <Globe className="top-0 sm:top-[-20px] md:top-[35px] lg:top-[-32px]" />
+        {/* <div className=" relative flex  w-full max-w-[29rem] items-center justify-center  rounded-lg  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-xl"> */}
+        <div className=" relative flex  w-full max-w-[29rem]   rounded-xl  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-2xl">
+          <VelocityScroll
+            text="VWS"
+            default_velocity={5}
+            className="font-display text-center text-4xl font-bold tracking-[-0.02em]  drop-shadow-sm md:text-7xl md:leading-[5rem] bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"
+          />
+          {/* <Globe className="top-0 sm:top-[-20px] md:top-[35px] lg:top-[-32px]" /> */}
+          <Globe className="top-20 w-[800px] right-[-150px]" />
           <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_200%,rgba(0,0,0,0.2),rgba(255,255,255,0))]" />
         </div>
 

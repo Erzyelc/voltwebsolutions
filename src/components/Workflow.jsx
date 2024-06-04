@@ -32,6 +32,7 @@ export default function Example() {
               <h1 className="mt-2 text-3xl font-bold tracking-tight  md:text-5xl bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] inline-block text-transparent bg-clip-text">
                 A better workflow
               </h1>
+
               <p className="mt-6 text-xl leading-8">
                 At VWS, we're passionate about empowering brands to thrive in
                 the digital landscape. With a dedicated team of experienced
