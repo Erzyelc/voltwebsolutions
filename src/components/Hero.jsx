@@ -28,7 +28,7 @@ const Hero = () => {
         /> */}
 
         {/* <div className=" relative flex  w-full max-w-[29rem] items-center justify-center  rounded-lg  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-xl"> */}
-        <div className=" relative flex  w-full max-w-[29rem]   rounded-xl  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-2xl">
+        <div className=" relative flex  w-full max-w-[22rem] sm:max-w-[29rem]  items-center justify-center  rounded-xl  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-2xl">
           <VelocityScroll
             text="VWS"
             default_velocity={5}
