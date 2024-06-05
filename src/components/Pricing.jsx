@@ -5,7 +5,7 @@ const tiers = [
     name: "Essential",
     id: "tier-hobby",
     href: "#",
-    priceMonthly: "$1000",
+    price: "$1000",
     description:
       "A great way to get started with your business, and see if it's a good fit for you.",
     features: [
@@ -14,7 +14,7 @@ const tiers = [
       "Includes branding, SEO, and logo",
       "Secure hosting and support",
       " 1 brand with unlimited updates (one update at a time)",
-      "Developed with Framer or Webflow",
+      "Option for developed in Framer or Webflow",
       " Branding guidelines creation,",
     ],
   },
@@ -22,16 +22,16 @@ const tiers = [
     name: "Growth",
     id: "tier-team",
     href: "#",
-    priceMonthly: "$2000",
+    price: "$2000",
     description:
       "Perfect for growing businesses that want to take their business to the next level.",
     features: [
       "Everything included in Essential package",
       "Option for fully responsive full stack site, built from scratch",
-      " Including CMS and E-commerce",
+      // " Including CMS and E-commerce",
       " Consistent health checks",
       "Craft blogs for website, with ability to craft monthly",
-      " Includes social media management, with post creation and design",
+      // " Includes social media management, with post creation and design",
     ],
   },
 ];
@@ -97,10 +97,10 @@ export default function Example() {
                     </h3>
                     <div className="mt-4 flex items-baseline gap-x-2">
                       <span className="text-5xl font-bold tracking-tight text-gray-900">
-                        {tier.priceMonthly}
+                        {tier.price}
                       </span>
                       <span className="text-base font-semibold leading-7 text-gray-600">
-                        /month
+                        /one-time
                       </span>
                     </div>
                     <p className="mt-6 text-base leading-7 text-gray-600">
