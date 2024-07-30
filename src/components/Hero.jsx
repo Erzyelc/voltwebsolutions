@@ -52,22 +52,22 @@ const Hero = () => {
               }}
             />
           </div>
-
+          {/* 
           <span className="badge badge-outline badge-lg">
             Award winning digital agency
-          </span>
+          </span> */}
           {/* <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text">
             Digital marketing solutions
             <span className=""> for ambitious brands</span>
           </h1> */}
           <WordPullUp
-            words="Digital marketing solutions for ambitious brands"
+            words="HIGH-CONVERTING LANDING PAGES FOR AMBITIOUS BRANDS"
             className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"
           />
 
-          <p className="py-6 font-poppins lg:max-w-lg">
-            Empowering Your Digital Presence with Cutting-Edge Web Solutions and
-            Marketing Strategies to Drive Growth.
+          <p className="py-6 font-poppins lg:max-w-xl font-semibold">
+            Crafting custom landing pages that capture attention, engage
+            visitors, and drive conversions.
           </p>
           {/* <WordPullUp
             words="Empowering Your Digital Presence with Cutting-Edge Web Solutions and Marketing Strategies to Drive Growth."

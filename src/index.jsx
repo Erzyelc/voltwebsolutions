@@ -1,18 +1,19 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
-import "./index.css"
-import App from "./App"
-import { ThemeProvider } from "react-hook-theme"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { ThemeProvider } from "react-hook-theme";
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider
       options={{
         theme: "dark",
         save: true,
-      }}>
+      }}
+    >
       <App />
     </ThemeProvider>
   </React.StrictMode>
-)
+);
