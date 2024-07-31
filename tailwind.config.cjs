@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        orbit: "orbit calc(var(--duration)*1s) linear infinite",
+        // orbit: "orbit calc(var(--duration)*1s) linear infinite",
+        // gradient: "gradient 8s linear infinite",
       },
       keyframes: {
         orbit: {
@@ -15,6 +16,11 @@ module.exports = {
           "100%": {
             transform:
               "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
+          },
+        },
+        gradient: {
+          to: {
+            backgroundPosition: "var(--bg-size) 0",
           },
         },
       },

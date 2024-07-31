@@ -56,10 +56,7 @@ const Hero = () => {
           <span className="badge badge-outline badge-lg">
             Award winning digital agency
           </span> */}
-          {/* <h1 className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text">
-            Digital marketing solutions
-            <span className=""> for ambitious brands</span>
-          </h1> */}
+
           <WordPullUp
             words="HIGH-CONVERTING LANDING PAGES FOR AMBITIOUS BRANDS"
             className="pt-4 sm:pt-0 text-center font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"
