@@ -18,7 +18,7 @@ const Hero = () => {
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
-        className="hero-content gap-10 md:gap-0 flex-col-reverse lg:flex-row-reverse"
+        className="hero-content gap-10 md:gap-0 items-center justify-center flex-col-reverse lg:flex-row-reverse"
       >
         {/* <img
           src="/images/logo/voltvws.svg"
@@ -28,18 +28,18 @@ const Hero = () => {
         /> */}
 
         {/* <div className=" relative flex  w-full max-w-[29rem] items-center justify-center  rounded-lg  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-xl"> */}
-        <div className=" relative flex  w-full max-w-[22rem] sm:max-w-[29rem]  items-center justify-center  rounded-xl  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-2xl">
+        {/* <div className=" relative flex  w-full max-w-[22rem] sm:max-w-[29rem]  items-center justify-center  rounded-xl  overflow-hidden pb-40 pt-8 md:pb-60 md:shadow-2xl">
           <VelocityScroll
             text="VWS"
             default_velocity={5}
             className="font-display text-center text-4xl font-bold tracking-[-0.02em]  drop-shadow-sm md:text-7xl md:leading-[5rem] bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"
           />
-          {/* <Globe className="top-0 sm:top-[-20px] md:top-[35px] lg:top-[-32px]" /> */}
+
           <Globe className="top-20 w-[800px] right-[-150px]" />
           <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_200%,rgba(0,0,0,0.2),rgba(255,255,255,0))]" />
-        </div>
+        </div> */}
 
-        <div className="text-center lg:text-start">
+        <div className="text-center flex items-center justify-center flex-col lg:text-start">
           <div
             className="absolute  inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             aria-hidden="true"
@@ -62,10 +62,10 @@ const Hero = () => {
           </h1> */}
           <WordPullUp
             words="HIGH-CONVERTING LANDING PAGES FOR AMBITIOUS BRANDS"
-            className="pt-4 sm:pt-0 font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"
+            className="pt-4 sm:pt-0 text-center font-poppins text-3xl font-black uppercase md:text-7xl inline-block bg-gradient-to-r from-[#2563EB]  to-[#ECBE44] text-transparent bg-clip-text"
           />
 
-          <p className="py-6 font-poppins lg:max-w-xl font-semibold">
+          <p className="py-6 font-poppins text-center lg:max-w-xl font-semibold">
             Crafting custom landing pages that capture attention, engage
             visitors, and drive conversions.
           </p>
